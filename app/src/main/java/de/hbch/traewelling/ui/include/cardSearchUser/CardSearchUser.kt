@@ -1,7 +1,5 @@
 package de.hbch.traewelling.ui.include.cardSearchUser
 
-import android.os.Handler
-import android.os.Looper
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -58,11 +56,7 @@ fun CardSearchUser(
                 ),
                 keyboardActions = KeyboardActions(
                     onSearch = {
-                        // TODO remove delay after compose migration
-                        val handler = Handler(Looper.getMainLooper())
-                        handler.postDelayed({
-                            searchAction(text)
-                        }, 500)
+                        searchAction(text)
                     }
                 ),
                 modifier = Modifier
