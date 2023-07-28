@@ -22,10 +22,10 @@ contents into a `key.properties` file. With those properties the main keys and U
 can be set.
 
 | Property name        | Usage                                       | Mandatory |
-| -------------------- | ------------------------------------------- | --------- |
+| -------------------- | ------------------------------------------- |-----------|
 | `SENTRY_DSN`         | The DSN used for error logging with Sentry. | No        |
-| `OAUTH_CLIENT_ID`    | The OAuth client id                         | No        |
-| `OAUTH_REDIRECT_URL` | The OAuth redirect URL                      | No        |
+| `OAUTH_CLIENT_ID`    | The OAuth client id                         | Yes       |
+| `OAUTH_REDIRECT_URL` | The OAuth redirect URL                      | Yes       |
 | `REPO_URL`           | The URL to the repository                   | No        |
 | `PRIVACY_URL`        | URL to the privacy statement and imprint.   | Yes       |
 
