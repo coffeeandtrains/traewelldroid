@@ -172,4 +172,5 @@
     <string name="signal_description">Visualizes signalling systems, signals, …</string>
     <string name="maxspeed_layer">Maximum speed</string>
     <string name="maxspeed_description">Visualizes maximum speed of a track and speed signals.</string>
+    <string name="title_search_user">Who are you looking for?</string>
 </resources>

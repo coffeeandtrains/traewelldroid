@@ -168,4 +168,5 @@
     <string name="signal_description">Darstellung von Signalsystemen, Signalen, …</string>
     <string name="maxspeed_layer">Höchstgeschwindigkeit</string>
     <string name="maxspeed_description">Darstellung der Höchstgeschwindigkeit eines Gleises und Geschwindigkeitssignalen.</string>
+    <string name="title_search_user">Wen suchst du?</string>
 </resources>
